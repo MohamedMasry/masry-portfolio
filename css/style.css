@@ -892,6 +892,7 @@ a:focus {
   display: flex;
   align-items: center;
   background: #ffffff;
+  border-radius: 10px;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.12);
 }
 
@@ -913,6 +914,7 @@ a:focus {
   justify-content: center;
   font-size: 45px;
   font-weight: 100;
+
 }
 
 .portfolio .portfolio-item:hover a.btn {
@@ -920,8 +922,13 @@ a:focus {
   background: transparent;
   box-shadow: inset 0 0 0 0 var(--main-color);
   border-color: var(--main-color);
+  border-radius: 50%;
 }
 
+.portfolio .portfolio-text a.btn:hover {
+  background: #313131;
+  color: white;
+}
 .portfolio .section-header > * {
   color: white;
 }
